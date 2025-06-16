@@ -1,3 +1,58 @@
+/* Reset styles */
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+/* modal */
+
 .modal__backdrop {
     z-index: 5;
     position: fixed;
@@ -52,4 +107,20 @@
 
 .gallery__item {
     flex: 0 0 calc(30% - 15px);
+}
+
+
+/* nav */
+
+.nav__list {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.nav__item {}
+
+.nav__link {
+    font-size: 20px;
+    color: whitesmoke;
 }
