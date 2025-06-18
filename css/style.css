@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    font-family: ;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 h1,
@@ -121,6 +121,6 @@ img {
 .nav__item {}
 
 .nav__link {
-    font-size: 20px;
+    font-size: 25px;
     color: whitesmoke;
 }
